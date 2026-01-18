@@ -42,7 +42,7 @@ if (config.env === 'development') {
   app.use(morgan('combined'));
 }
 
-const chatRoutes = require('./src/routes/chatRoutes');
+const chatRoutes = require('./routes/chatRoutes');
 
 // Routes
 app.use('/api/chat', chatRoutes);
