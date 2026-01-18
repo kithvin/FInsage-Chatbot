@@ -12,3 +12,4 @@ This directory contains the documentation for the Chatbot project, focusing on t
 | [04_backend_integration_plan.md](./04_backend_integration_plan.md) | Plan for connecting Frontend to Backend. |
 | [05_backend_integration_implementation.md](./05_backend_integration_implementation.md) | Implementation details of the API connection. |
 | [06_complete_system_overview.md](./06_complete_system_overview.md) | High-level summary of the entire system architecture and status. |
+| [07_environment_variables.md](./07_environment_variables.md) | Configuration of Frontend environment variables. |

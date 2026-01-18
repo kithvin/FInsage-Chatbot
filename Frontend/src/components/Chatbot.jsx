@@ -33,7 +33,7 @@ const Chatbot = () => {
     setIsTyping(true);
 
     try {
-      const response = await fetch('http://localhost:5000/api/chat/message', {
+      const response = await fetch(`${import.meta.env.VITE_BACKEND_URL}/api/chat/message`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
