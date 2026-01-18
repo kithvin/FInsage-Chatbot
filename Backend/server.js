@@ -4,8 +4,8 @@ const dotenv = require('dotenv');
 
 const mongoose = require('mongoose');
 const morgan = require('morgan');
-const config = require('./src/config/config');
-const { errorHandler } = require('./src/middleware/errorMiddleware');
+const config = require('./config/config');
+const { errorHandler } = require('./middleware/errorMiddleware');
 
 /**
  * Connects to the MongoDB database using the configuration provided.
